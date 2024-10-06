@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "#/": "./",
+    "deno-tree-sitter/": "https://deno.land/x/deno_tree_sitter@0.2.5.2/",
+    "common-tree-sitter-languages/": "https://github.com/jeff-hykin/common_tree_sitter_languages/raw/e0395e3a6e552b0fa73500d5b724735a52936067/main/"
+  }
+}
